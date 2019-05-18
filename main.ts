@@ -19,8 +19,8 @@ namespace Tank {
     /**
      * Motor control.
      */
-    //% blockId=motor_control block="M1|%speed1|M2|%speed2"
     //% weight=100
+    //% blockId=motor_control block="M1|%speed1|M2|%speed2"
     //% speed1.min=0 speed2.max=255
     function motors(speed1: number, speed2: number) {
         motor.MotorRun(motor.Motors.M1, motor.Dir.CW, speed1)
@@ -33,6 +33,7 @@ namespace Tank {
     */
     //% weight=20
     //% blockId=canal block="Canal|%canalnumber"
+  
     function canal(canalnumber: number) {
         radio.setGroup(canalnumber)
     }

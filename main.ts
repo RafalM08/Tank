@@ -11,7 +11,7 @@
 /**
  *This is Tank Motors:motor user motor and steering control function.
  */
-//% weight=10 color=#073800 icon="f46f" block="Tank"
+//% weight=10 color=#073800 icon="\f46f" block="Tank"
 
 
 namespace Tank {

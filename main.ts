@@ -5,7 +5,7 @@
  *
  *
  * @author [email](rafal.mracz@gmail.com)
- * @version  V0.1
+ * @version  V0.2
  * @date  2019.5.18
  */
 

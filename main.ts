@@ -1,4 +1,3 @@
-
 /*！
  * @file tank/main.ts
  * @brief Tank microbit motor drive makecode library.
@@ -18,8 +17,8 @@
 namespace Tank {
 
     /**
-         * Motor control.
-         */
+     * Motor control.
+     */
     //% blockId=motor_control block="M1|%speed1|M2|%speed2"
     //% weight=100
     //% speed1.min=0 speed2.max=255
@@ -30,8 +29,8 @@ namespace Tank {
 
 
     /**
-         * Change the chanel.
-        */
+      * Change the chanel.
+    */
     //% weight=20
     //% blockId=canal block="Canal|%canalnumber"
     function canal(canalnumber: number) {

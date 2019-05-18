@@ -1,5 +1,5 @@
 /*！
- * @file tank/main.ts
+ * @file tankmind/main.ts
  * @brief Tank microbit motor drive makecode library.
  *
  *

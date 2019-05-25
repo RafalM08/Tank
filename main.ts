@@ -19,11 +19,20 @@ namespace Tank {
     /**
      * Motor control.
      */
-    //% weight=100
+    //% weight=1
     //% blockId=motor_control block="M1|%speed1|M2|%speed2"
     //% speed1.min=0 speed2.max=255
     export function motors(speed1: number, speed2: number) {
         motor.MotorRun(motor.Motors.M1, motor.Dir.CW, speed1)
         motor.MotorRun(motor.Motors.M3, motor.Dir.CW, speed2)
+    }
+
+        /**
+	 * Change chanel.
+    */
+    //% weight=2
+    //% blockId=chanel_changer block="Chanel|%number"
+    export function chanelchanger(chanel: number) {
+        radio.setGroup(chanel)
     }
 }

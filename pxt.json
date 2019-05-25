@@ -5,7 +5,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "motor": "github:dfrobot/pxt-motor#32a693485373e4606ee2d533e45d89ea1fae8bf5"
+        "motor": "github:dfrobot/pxt-motor#32a693485373e4606ee2d533e45d89ea1fae8bf5",
+        "WSJoyStick": "github:waveshare/joystick#e090d95944ae0fc614f708461498dbf875ef1243"
     },
     "files": [
         "README.md",

@@ -15,11 +15,11 @@
 
 
 namespace Tank {
-
+    WSJoyStick.JoyStickInit()
     /**
      * Motor control.
      */
-    //% weight=1
+    //% weight=100
     //% blockId=motor_control block="M1|%speed1|M2|%speed2"
     //% speed1.min=0 speed2.max=255
     export function motors(speed1: number, speed2: number) {
@@ -27,12 +27,13 @@ namespace Tank {
         motor.MotorRun(motor.Motors.M3, motor.Dir.CW, speed2)
     }
 
-        /**
-	 * Change chanel.
-    */
-    //% weight=2
+    /**
+ * Change chanel.
+*/
+    //% weight=99
     //% blockId=chanel_changer block="Chanel|%number"
     export function chanelchanger(chanel: number) {
         radio.setGroup(chanel)
+        WSJoyStick.JoyStickInit()
     }
 }
